@@ -1,0 +1,23 @@
+.comment-container{
+    display: flex;
+}
+
+.comment-container h3{
+    margin: 10px;
+}
+
+.comment-container .btn{
+    margin: 5px;
+    width: 100px;
+}
+
+.comment-block{
+    background-color: #9c979775;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.comment-block h4:first-of-type{
+    margin: 0;
+}

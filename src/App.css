@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@import url('./Styles/Login.css');
+@import url('./Styles/Pagination.css');
+@import url('./Styles/Home.css');
+@import url('./Styles/List.css');
+@import url('./Styles/Order.css');
+@import url('./Styles/Modal.css');
+@import url('./Styles/Inputs.css');
+@import url('./Styles/Filter.css');
+@import url('./Styles/Responsive.css');
+@import url('./Styles/Comment.css');
+
+.App-header{
+    display: flex;
+    flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* NAV */
+
+nav{
+    background-color: #aaa7a0;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-control a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link.active{
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr{
+    background-color: #0000008d;
+    height: 1px;
+    width: 100%;
+    
 }

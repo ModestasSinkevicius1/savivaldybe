@@ -1,0 +1,64 @@
+.order{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.587);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.order-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 800px;
+    height: 80vh;
+    background-color: bisque;
+    box-shadow: 1px 1px 5px #000000a9;
+    border-radius: 5px;
+    margin: 20px calc((100% - 800px)/2);
+    padding: 10px;
+    position: relative;
+}
+
+.delete-container{
+    width: 280px;
+    margin: 200px calc((100% - 280px)/2);
+    height: 100px;
+}
+
+.order-container .input-select{
+    width: 100px;
+}
+
+.order-info-title{
+    margin: 0;
+}
+
+.order-btn-container{
+    margin: 10px;
+    align-self: center;
+}
+
+.order-btn-container .btn{
+    margin: 10px;
+}
+
+.input-textarea{
+    display: block;
+    min-height: 100px;
+    margin-top: 10px;
+}
+
+.btn-delete{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.textarea-container textarea{
+    width: 99%;
+    resize: none;
+}

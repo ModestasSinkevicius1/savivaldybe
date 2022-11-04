@@ -1,0 +1,27 @@
+.filter{
+    background-color: #c8c5c5;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 50px;
+}
+
+.filter-search{
+    width: 100%;
+    text-align: center;
+}
+
+.filter .search-input{
+    width: 80%;
+}
+
+.filter-inputs{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.filter-input-container .input-select{
+    width: 80px;
+}

@@ -1,0 +1,41 @@
+.myOrder-list{
+    height: 630px;
+}
+
+.myOrder-size{
+    text-transform: uppercase;
+}
+
+.myOrder-status{
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+}
+
+.list-item .myOrder-comment,
+.list-header.list-header-comment{
+    overflow-wrap: break-word;
+    width: 160px;
+    min-height: 20px;
+}
+
+.order-control{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-order{
+    margin: 5px;
+}
+
+.myOrder-header-type-second{
+    display: none;
+}
+
+/* STATS */
+
+.stats-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
